@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"><!-- Set character encoding for the document -->
+
+        <!-- Responsive design: adjusts layout for different devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page title displayed in the browser tab -->
+        <title>Contact Us | Pine City Mall</title>
+
+        <!-- Open Graph Meta Tags for social media sharing -->
+        <meta property="og:title" content="Contact Us | Pine City Mall">
+        <meta property="og:type" content="website">
+        <!-- TODO: add actual url -->
+        <meta property="og:url" content="#######">
+        <!-- TODO: replace image with correct github url -->
+        <meta property="og:image"
+            content="images/mall-landscape-tree.png">
+        <meta property="og:description"
+            content="Get in touch with us for inquiries, feedback, or assistance at Pine City Mall.">
+        <meta property="og:site_name"
+            content="Contact Us | Pine City Mall">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags for Twitter card display -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Contact Us | Pine City Mall">
+
+        <!-- Standard SEO meta tags -->
+        <meta name="twitter:description"
+            content="Get in touch with us for inquiries, feedback, or assistance at Pine City Mall.">
+        <!-- TODO: replace image with correct github url -->
+        <meta name="twitter:image"
+            content="images/mall-landscape-tree.png">
+        <meta name="description"
+            content="Reach out to Pine City Mall for any questions or concerns. We're here to help!">
+        <meta name="keywords"
+            content="Pine City Mall, contact, customer service, inquiries, feedback">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Preconnect to optimize font loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Google Fonts stylesheet -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+            rel="stylesheet">
+
+        <!-- Favicon for the site -->
+        <link rel="icon" href="images/favicon.ico">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- This title is offscreen for visual layout but important for screen readers -->
+        <span class="offscreen">Contact Us</span>
+
+        <!-- Header -->
+        <header class="header">
+
+            <!-- Hamburger menu -->
+            <nav class="header__hamburger-menu">
+                <input type="checkbox" class="toggle-menu" title="Menu">
+                <div class="hamburger" title="Menu"></div>
+                <ul class="header__menu">
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Loader effect -->
+            <div class="loader-container">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Mall logo -->
+            <section class="header__logo">
+                <a href="home.html">
+                    <img title="Home" src="images/mall-logo.png"
+                        alt="Mall Logo"
+                        width="577" height="100">
+                </a>
+            </section>
+
+            <!-- Menubar -->
+            <nav class="header__menubar">
+                <ul class="header__menubar-items">
+                    <li>
+
+                        <!-- Stores -->
+                        <a href="stores.html" title="Click">Stores</a>
+
+                        <!-- Dropdown arrow -->
+                        <div class="stores-dropdown-arrow"
+                            aria-label="Dropdown arrow">&#x25BC</div>
+
+                        <!-- Store categories -->
+                        <ul class="header__store-categories">
+
+                            <!-- Banks -->
+                            <li>
+                                <a href="banks.html" class="banks">
+                                    <h4>Banks</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__banks">
+                                    <li>
+                                        <a href="absa.html">
+                                            <h4>ABSA</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="capitec.html">
+                                            <h4>CAPITEC</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="fnb.html">
+                                            <h4>FNB</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="nedbank.html">
+                                            <h4>NEDBANK</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="standard-bank.html">
+                                            <h4 class="nowrap">Standard
+                                                Bank</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Electronics -->
+                            <li>
+                                <a href="electronics.html"
+                                    class="electronics">
+                                    <h4>Electronics</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__electronics-stores">
+                                    <li>
+                                        <a href="hificorp.html">
+                                            <h4>HiFiCorp</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="incredible-connection.html">
+                                            <h4>Incredible CONNECTION</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="istore.html">
+                                            <h4>iStore</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="sa-cell-world.html">
+                                            <h4><span
+                                                    class="smalltext">SA</span>CellWorld</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="samsung.html">
+                                            <h4>SAMSUNG</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Fashion -->
+                            <li>
+                                <a href="fashion.html" class="fashion">
+                                    <h4>Fashion</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__fashion-stores">
+                                    <li>
+                                        <a href="edgars.html">
+                                            <h4>Edgars</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="kingsmead.html">
+                                            <h4>Kingsmead</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mr-price.html">
+                                            <h4 class="nowrap">Mr Price</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="shoe-city.html">
+                                            <h4>ShoeCity</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="truworths.html">
+                                            <h4>TRUWORTHS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="woolworths.html">
+                                            <h4>WOOLWORTHS</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Furniture -->
+                            <li>
+                                <a href="furniture.html" class="furniture">
+                                    <h4>Furniture</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__furniture-stores">
+                                    <li>
+                                        <a href="bradlows.html">
+                                            <h4>BRADLOWS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="house-&-home.html">
+                                            <h4 class="nowrap">House &
+                                                Home</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="rochester.html">
+                                            <h4>ROCHESTER</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Healthcare -->
+                            <li>
+                                <a href="healthcare.html"
+                                    class="healthcare">
+                                    <h4>Healthcare</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__healthcare-stores">
+                                    <li>
+                                        <a href="clicks.html">
+                                            <h4>CLICKS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="dis-chem.html">
+                                            <h4 class="nowrap">Dis-Chem</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="specsavers.html">
+                                            <h4>specsavers</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Restaurants -->
+                            <li>
+                                <a href="restaurants.html"
+                                    class="restaurants">
+                                    <h4>Restaurants</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__restaurants">
+                                    <li>
+                                        <a href="kfc.html">
+                                            <h4>KFC</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="nando's.html">
+                                            <h4>Nando's</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ocean-basket.html">
+                                            <h4 class="nowrap">Ocean
+                                                Basket</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="panarottis.html">
+                                            <h4>PANAROTTIS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pizza-hut.html">
+                                            <h4 class="nowrap">Pizza
+                                                Hut</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="raj.html">
+                                            <h4 class="nowrap"><span
+                                                    class="smalltext">THE</span>
+                                                RAJ</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="spur.html">
+                                            <h4>SPUR</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="steers.html">
+                                            <h4>STEERS</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Supermarkets -->
+                            <li>
+                                <a href="supermarkets.html"
+                                    class="supermarkets">
+                                    <h4>Supermarkets</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__supermarkets">
+                                    <li>
+                                        <a href="checkers-hyper.html">
+                                            <h4 class="nowrap">Checkers
+                                                Hyper</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pick-n-pay.html">
+                                            <h4 class="nowrap">Pick n
+                                                Pay</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="woolworths-foodmarket.html">
+                                            <h4><strong>WOOLWORTHS</strong>
+                                                FOOD</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Movies -->
+                    <li>
+                        <a href="movies.html" title="Click">Movies</a>
+
+                        <!-- Dropdown arrow -->
+                        <div class="movies-dropdown-arrow"
+                            aria-label="Dropdown arrow">&#x25BC</div>
+                        <ul class="header__movies">
+                            <li>
+                                <a href="a-dog-of-flanders.html">
+                                    <h4 class="nowrap">A DOG of FLANDERS
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="geronimo.html">
+                                    <h4>GERONIMO
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="silas-marner.html">
+                                    <h4 class="nowrap">SiLas MARNER
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="the-miracle-worker.html">
+                                    <h4 class="nowrap">The Miracle Worker
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="treasures-of-the-snow.html">
+                                    <h4 class="nowrap">Treasures of the SNOW
+                                    </h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Map, About and Contact pages -->
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <div class="breadcrumbs__items">
+                <a href="home.html">
+                    <img class="home-icon" src="images/home-icon.png"
+                        alt="Home Icon" title="Home" width="100"
+                        height="100">
+                </a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+
+        <!-- Contact main section -->
+        <main class="contact-main">
+
+            <!-- Contact main content -->
+            <section class="contact-main__content">
+
+                <!-- Main heading -->
+                <h1 class="center">Contact Us</h1>
+
+                <!-- Info -->
+                <h2>Mall Info:</h2>
+
+                <!-- Mall location -->
+                <p class="offscreen">Mall Location</p>
+                <div class="contact-main__info-box">
+                    <img src="images/location-icon.png" alt="Location"
+                        width="50"
+                        height="50">
+                    <p>346 Pine Street, Pine City, South Africa</p>
+                </div>
+
+                <!-- Business hours -->
+                <p class="offscreen">Business Hours</p>
+                <div class="contact-main__info-box">
+                    <img class="contact-main__info-box-business-hours"
+                        src="images/business-hours.jpeg"
+                        alt="Business Hours"
+                        width="50" height="50">
+                    <p><span class="bold">Weekdays: </span>08:00 -
+                        20:00<br><span class="bold">Weekends: </span>09:00
+                        - 21:00<br><span class="bold">Public Holidays:
+                        </span>09:00 - 16:00</p>
+                </div>
+
+                <!-- Contact details -->
+                <h3 class="center">Our contact details are as
+                    follows:</h3>
+
+                <!-- Phone number -->
+                <p class="offscreen">Phone Number</p>
+                <div class="contact-main__info-box">
+                    <img src="images/phone-icon.png" alt="Phone"
+                        width="50"
+                        height="50">
+                    <a href="tel:+27123456789" title="Phone">012
+                        345 6789</a>
+                </div>
+
+                <!-- Email address -->
+                <p class="offscreen">Email Address</p>
+                <div class="contact-main__info-box">
+                    <img src="images/email-icon.png" alt="Email"
+                        width="50"
+                        height="50">
+                    <a
+                        href="mailto:info@pincitymall.com?subject=Mall Info"
+                        title="Email">info@pinecitymall.com</a>
+                </div>
+
+                <!-- Facebook -->
+                <p class="offscreen">Facebook</p>
+                <div class="contact-main__info-box">
+                    <img src="images/facebook-icon.png" alt="Facebook">
+                    <a href="https://www.facebook.com/"
+                        title="Facebook" target="_blank"
+                        rel="noopener noreferrer">PineCityMall</a>
+                </div>
+
+                <!-- Instagram -->
+                <p class="offscreen">Instagram</p>
+                <div class="contact-main__info-box">
+                    <img src="images/instagram-icon.png" alt="Instagram">
+                    <a href="https://www.instagram.com/"
+                        title="Instagram" target="_blank"
+                        rel="noopener noreferrer">@PineCityMall</a>
+                </div>
+
+                <!-- TikTok -->
+                <p class="offscreen">TikTok</p>
+                <div class="contact-main__info-box">
+                    <img src="images/tiktok-icon.png" alt="TikTok">
+                    <a href="https://www.tiktok.com/"
+                        title="TikTok" target="_blank"
+                        rel="noopener noreferrer">@PineCityMall</a>
+                </div>
+
+                <!-- Twitter -->
+                <p class="offscreen">Twitter</p>
+                <div class="contact-main__info-box">
+                    <img src="images/twitter-icon.png" alt="Twitter">
+                    <a href="https://x.com/" title="Twitter"
+                        target="_blank"
+                        rel="noopener noreferrer">@PineCityMall</a>
+                </div>
+
+                <!-- Contact/Feedback form -->
+                <form action="thanks.html" method="get">
+
+                    <!-- Contact/Feedback form guidelines -->
+                    <h3 class="center">WE'D LOVE TO HEAR FROM YOU</h3>
+                    <p class="contact-form-instruction center">Please fill in
+                        the form
+                        below.
+                        Whether you have a question, need assistance, or
+                        want to
+                        provide
+                        feedback, your input is valuable to us.</p>
+
+                    <!-- First name -->
+                    <div class="input-field">
+                        <input type="text" name="first-name"
+                            id="first-name"
+                            aria-required="true" required
+                            spellcheck="false"
+                            placeholder="John" autocomplete="name"
+                            pattern="[A-z\-]*">
+                        <label for="first-name" class="required">First
+                            Name</label>
+                    </div>
+
+                    <!-- Additional names -->
+                    <div class="input-field">
+                        <input type="text" name="additional-names"
+                            id="additional-names" spellcheck="false"
+                            placeholder="Smith" autocomplete="name"
+                            title="Optional" pattern="[A-z\-]*">
+                        <label for="additional-names">Additional
+                            Name(s)</label>
+                    </div>
+
+                    <!-- Last name -->
+                    <div class="input-field">
+                        <input type="text" name="last-name"
+                            id="last-name"
+                            aria-required="true" required
+                            spellcheck="false"
+                            placeholder="Doe" autocomplete="name"
+                            pattern="[A-z\-]*">
+                        <label for="last-name" class="required">Last
+                            Name</label>
+                    </div>
+
+                    <!-- Contact options -->
+                    <p class="contact-method">Please choose your
+                        preferred
+                        contact
+                        method:</p>
+
+                    <!-- Email -->
+                    <input type="radio" id="email-option"
+                        class="contact-preference"
+                        name="contact-preference" aria-required="true"
+                        required title="Select one option">
+                    <label class="email-label" for="email-option"
+                        title="Select one option">Email</label>
+                    <br>
+
+                    <!-- Phone -->
+                    <input type="radio" id="phone-option"
+                        class="contact-preference"
+                        name="contact-preference" aria-required="true"
+                        required title="Select one option">
+                    <label class="phone-label" for="phone-option"
+                        title="Select one option">Phone</label>
+                    <br>
+
+                    <!-- WhatsApp -->
+                    <input type="radio" id="whatsapp-option"
+                        class="contact-preference"
+                        name="contact-preference" aria-required="true"
+                        required title="Select one option">
+                    <label class="whatsapp-label"
+                        for="whatsapp-option"
+                        title="Select one option">WhatsApp</label>
+
+                    <!-- When Email option is selected -->
+                    <div class="email">
+
+                        <!-- Required email address -->
+                        <div class="input-field">
+                            <input type="email" name="email"
+                                id="email-selected" aria-required="true"
+                                required spellcheck="false"
+                                placeholder="email@example.com"
+                                autocomplete="email" value="Address@mail.com">
+                            <label for="email-selected"
+                                class="required">Email</label>
+                        </div>
+
+                        <!-- Optional contact number -->
+                        <div class="input-field">
+                            <input type="text" inputmode="numeric"
+                                name="contact-number"
+                                id="contact-number"
+                                placeholder="0112345678"
+                                autocomplete="tel"
+                                pattern="[0-9\-\+]*" minlength="9"
+                                maxlength="15"
+                                title="Optional">
+                            <label for="contact-number">Contact
+                                Number</label>
+                        </div>
+
+                        <!-- Optional additional contact number -->
+                        <div class="input-field">
+                            <input type="text" inputmode="numeric"
+                                name="additional-contact-number"
+                                id="additional-contact-number"
+                                placeholder="0112345678"
+                                autocomplete="tel"
+                                pattern="[0-9\-\+]*" minlength="9"
+                                maxlength="15"
+                                title="Optional">
+                            <label
+                                for="additional-contact-number">Additional
+                                Contact Number</label>
+                        </div>
+                    </div>
+
+                    <!-- When Phone or WhatsApp option is selected -->
+                    <div class="phone">
+
+                        <!-- Required contact number -->
+                        <div class="input-field">
+                            <input type="text" inputmode="numeric"
+                                name="contact-number"
+                                id="phone-selected" aria-required="true"
+                                required
+                                placeholder="0112345678"
+                                autocomplete="tel"
+                                pattern="[0-9\-\+]*" minlength="9"
+                                maxlength="15" value="0112345678">
+                            <label for="phone"
+                                class="required">Phone</label>
+                        </div>
+
+                        <!-- Optional additional contact number -->
+                        <div class="input-field">
+                            <input type="text" inputmode="numeric"
+                                name="additional-contact-number"
+                                id="additional-contact-number"
+                                placeholder="0112345678"
+                                autocomplete="tel"
+                                pattern="[0-9\-\+]*" minlength="9"
+                                maxlength="15"
+                                title="Optional">
+                            <label
+                                for="additional-contact-number">Additional
+                                Contact
+                                Number</label>
+                        </div>
+
+                        <!-- Optional email address -->
+                        <div class="input-field">
+                            <input type="email" name="email" id="email"
+                                spellcheck="false"
+                                placeholder="email@example.com"
+                                autocomplete="email" title="Optional">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <br>
+
+                    <!-- Message instruction -->
+                    <p class="offscreen">Please select your message
+                        type.</p>
+
+                    <!-- Message type -->
+                    <select name="message-type" id="message-type"
+                        title="Select message type" aria-required="true"
+                        required>
+                        <option value disabled selected>Select message
+                            type</option>
+                        <option value="Compliment">Compliment</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Suggestion">Suggestion</option>
+                        <option value="Review">Review</option>
+                        <option value="Query">Query</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+
+                    <!-- Message -->
+                    <p class="offscreen">Type your message here.</p>
+                    <textarea name="message" id="message"
+                        aria-required="true"
+                        required placeholder="Type your message here..."
+                        spellcheck="true"></textarea>
+                    <br>
+
+                    <!-- Rating experience -->
+                    <h2 class="contact-main__rate center">Please rate your
+                        experience
+                        using
+                        our Pine City Mall website. Your feedback
+                        matters.</h2>
+                    <div class="rating">
+                        <input type="radio" name="rating" id="star5"
+                            value="5">
+                        <label for="star5" class="star"></label>
+                        <input type="radio" name="rating" id="star4"
+                            value="4">
+                        <label for="star4" class="star"></label>
+                        <input type="radio" name="rating" id="star3"
+                            value="3">
+                        <label for="star3" class="star"></label>
+                        <input type="radio" name="rating" id="star2"
+                            value="2">
+                        <label for="star2" class="star"></label>
+                        <input type="radio" name="rating" id="star1"
+                            value="1">
+                        <label for="star1" class="star"></label>
+                    </div>
+                    <br>
+
+                    <!-- Submit button -->
+                    <p class="offscreen">Submit</p>
+                    <input type="submit" class="submit">
+                </form>
+            </section>
+        </main>
+
+        <!-- Back to top button -->
+        <div class="top">
+            <a class="top-arr" href="#"
+                title="Back to top.">&blacktriangle;</a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer__social-media">
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook-icon.png" alt="Facebook"
+                        width="100" height="100"
+                        title="Follow us on Facebook">
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram-icon.png" alt="Instagram"
+                        width="100" height="100"
+                        title="Follow us on Instagram">
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/tiktok-icon.png" alt="TikTok"
+                        width="100"
+                        height="100" title="Follow us on TikTok">
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://x.com/" class="footer-icon"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="images/twitter-icon.png" alt="Twitter"
+                        width="100"
+                        height="100" title="Follow us on Twitter">
+                </a>
+            </div>
+        </footer>
+
+    </body>
+</html>

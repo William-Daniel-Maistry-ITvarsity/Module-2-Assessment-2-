@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"><!-- Set character encoding for the document -->
+
+        <!-- Responsive design: adjusts layout for different devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page title displayed in the browser tab -->
+        <title>WOOLWORTHS | Pine City Mall</title>
+
+        <!-- Open Graph Meta Tags for social media sharing -->
+        <meta property="og:title" content="WOOLWORTHS | Pine City Mall">
+        <meta property="og:type" content="website">
+        <!-- TODO: add actual url -->
+        <meta property="og:url" content="#######">
+        <!-- TODO: replace image with correct github url -->
+        <meta property="og:image"
+            content="images/stores/fashion/woolworths/logo.png">
+        <meta property="og:description"
+            content="Visit Woolworths at Pine City Mall for stylish and high-quality apparel for the whole family.">
+        <meta property="og:site_name"
+            content="WOOLWORTHS | Pine City Mall">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags for Twitter card display -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="WOOLWORTHS | Pine City Mall">
+        <meta name="twitter:description"
+            content="Visit Woolworths at Pine City Mall for stylish and high-quality apparel for the whole family.">
+        <!-- TODO: replace image with correct github url -->
+        <meta name="twitter:image"
+            content="images/stores/fashion/woolworths/logo.png">
+
+        <!-- Standard SEO meta tags -->
+        <meta name="description"
+            content="Explore stylish and quality clothing options for all ages at Woolworths  in Pine City Mall.">
+        <meta name="keywords"
+            content="Woolworths Clothing, fashion, apparel, Pine City Mall, stylish clothing, family wear">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Preconnect to optimize font loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Google Fonts stylesheet -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+            rel="stylesheet">
+
+        <!-- Favicon for the site -->
+        <link rel="icon" href="images/favicon.ico">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- This title is offscreen for visual layout but important for screen readers -->
+        <span class="offscreen">WOOLWORTHS</span>
+
+        <!-- Header -->
+        <header class="header">
+
+            <!-- Hamburger menu -->
+            <nav class="header__hamburger-menu">
+                <input type="checkbox" class="toggle-menu" title="Menu">
+                <div class="hamburger" title="Menu"></div>
+                <ul class="header__menu">
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Loader effect -->
+            <div class="loader-container">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Mall logo -->
+            <section class="header__logo">
+                <a href="home.html">
+                    <img title="Home" src="images/mall-logo.png" alt="Mall Logo"
+                        width="577" height="100">
+                </a>
+            </section>
+
+            <!-- Menubar -->
+            <nav class="header__menubar">
+                <ul class="header__menubar-items">
+                    <li>
+
+                        <!-- Stores -->
+                        <a href="stores.html" title="Click">Stores</a>
+
+                        <!-- Dropdown arrow -->
+                        <div class="stores-dropdown-arrow"
+                            aria-label="Dropdown arrow">&#x25BC</div>
+
+                        <!-- Store categories -->
+                        <ul class="header__store-categories">
+
+                            <!-- Banks -->
+                            <li>
+                                <a href="banks.html" class="banks">
+                                    <h4>Banks</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__banks">
+                                    <li>
+                                        <a href="absa.html">
+                                            <h4>ABSA</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="capitec.html">
+                                            <h4>CAPITEC</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="fnb.html">
+                                            <h4>FNB</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="nedbank.html">
+                                            <h4>NEDBANK</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="standard-bank.html">
+                                            <h4 class="nowrap">Standard
+                                                Bank</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Electronics -->
+                            <li>
+                                <a href="electronics.html" class="electronics">
+                                    <h4>Electronics</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__electronics-stores">
+                                    <li>
+                                        <a href="hificorp.html">
+                                            <h4>HiFiCorp</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="incredible-connection.html">
+                                            <h4>Incredible CONNECTION</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="istore.html">
+                                            <h4>iStore</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="sa-cell-world.html">
+                                            <h4><span
+                                                    class="smalltext">SA</span>CellWorld</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="samsung.html">
+                                            <h4>SAMSUNG</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Fashion -->
+                            <li>
+                                <a href="fashion.html" class="fashion">
+                                    <h4>Fashion</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__fashion-stores">
+                                    <li>
+                                        <a href="edgars.html">
+                                            <h4>Edgars</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="kingsmead.html">
+                                            <h4>Kingsmead</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mr-price.html">
+                                            <h4 class="nowrap">Mr Price</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="shoe-city.html">
+                                            <h4>ShoeCity</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="truworths.html">
+                                            <h4>TRUWORTHS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="woolworths.html">
+                                            <h4>WOOLWORTHS</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Furniture -->
+                            <li>
+                                <a href="furniture.html" class="furniture">
+                                    <h4>Furniture</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__furniture-stores">
+                                    <li>
+                                        <a href="bradlows.html">
+                                            <h4>BRADLOWS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="house-&-home.html">
+                                            <h4 class="nowrap">House & Home</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="rochester.html">
+                                            <h4>ROCHESTER</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Healthcare -->
+                            <li>
+                                <a href="healthcare.html" class="healthcare">
+                                    <h4>Healthcare</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__healthcare-stores">
+                                    <li>
+                                        <a href="clicks.html">
+                                            <h4>CLICKS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="dis-chem.html">
+                                            <h4 class="nowrap">Dis-Chem</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="specsavers.html">
+                                            <h4>specsavers</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Restaurants -->
+                            <li>
+                                <a href="restaurants.html" class="restaurants">
+                                    <h4>Restaurants</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__restaurants">
+                                    <li>
+                                        <a href="kfc.html">
+                                            <h4>KFC</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="nando's.html">
+                                            <h4>Nando's</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ocean-basket.html">
+                                            <h4 class="nowrap">Ocean Basket</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="panarottis.html">
+                                            <h4>PANAROTTIS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pizza-hut.html">
+                                            <h4 class="nowrap">Pizza Hut</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="raj.html">
+                                            <h4 class="nowrap"><span
+                                                    class="smalltext">THE</span>
+                                                RAJ</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="spur.html">
+                                            <h4>SPUR</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="steers.html">
+                                            <h4>STEERS</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Supermarkets -->
+                            <li>
+                                <a href="supermarkets.html"
+                                    class="supermarkets">
+                                    <h4>Supermarkets</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__supermarkets">
+                                    <li>
+                                        <a href="checkers-hyper.html">
+                                            <h4 class="nowrap">Checkers
+                                                Hyper</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pick-n-pay.html">
+                                            <h4 class="nowrap">Pick n Pay</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="woolworths-foodmarket.html">
+                                            <h4><strong>WOOLWORTHS</strong>
+                                                FOOD</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Movies -->
+                    <li>
+                        <a href="movies.html" title="Click">Movies</a>
+
+                        <!-- Dropdown arrow -->
+                        <div class="movies-dropdown-arrow"
+                            aria-label="Dropdown arrow">&#x25BC</div>
+                        <ul class="header__movies">
+                            <li>
+                                <a href="a-dog-of-flanders.html">
+                                    <h4 class="nowrap">A DOG of FLANDERS
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="geronimo.html">
+                                    <h4>GERONIMO
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="silas-marner.html">
+                                    <h4 class="nowrap">SiLas MARNER
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="the-miracle-worker.html">
+                                    <h4 class="nowrap">The Miracle Worker
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="treasures-of-the-snow.html">
+                                    <h4 class="nowrap">Treasures of the SNOW
+                                    </h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Map, About and Contact pages -->
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <div class="breadcrumbs__items">
+                <a href="home.html">
+                    <img class="home-icon" src="images/home-icon.png"
+                        alt="Home Icon" title="Home" width="100" height="100">
+                </a>
+                <a href="stores.html">Stores</a>
+                <a href="fashion.html">Fashion</a>
+                <a href="woolworths.html">WOOLWORTHS</a>
+            </div>
+        </nav>
+
+        <!-- WOOLWORTHS main section -->
+        <main class="store-main">
+
+            <!-- Store slider -->
+            <section class="store-main__slider">
+                <div id="slider">
+
+                    <!-- Hidden radio buttons -->
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
+                    <input type="radio" name="slider" id="slide7">
+                    <input type="radio" name="slider" id="slide8">
+                    <div id="slides">
+
+                        <!-- Slider images -->
+                        <figure class="inner">
+                            <img
+                                src="images/stores/fashion/woolworths/img-1.jpg"
+                                alt="Image 1" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-2.jpg"
+                                alt="Image 2" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-3.jpg"
+                                alt="Image 3" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-4.jpg"
+                                alt="Image 4" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-1.jpg"
+                                alt="Image 1" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-2.jpg"
+                                alt="Image 2" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-3.jpg"
+                                alt="Image 3" width="1000" height="600">
+                            <img
+                                src="images/stores/fashion/woolworths/img-4.jpg"
+                                alt="Image 4" width="1000" height="600">
+                        </figure>
+                    </div>
+
+                    <!-- Next arrow -->
+                    <div id="controls-next">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                        <label for="slide8"></label>
+                    </div>
+
+                    <!-- Pagination indicators -->
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide5"></label>
+                        <label for="slide2"></label>
+                        <label for="slide6"></label>
+                        <label for="slide3"></label>
+                        <label for="slide7"></label>
+                        <label for="slide4"></label>
+                        <label for="slide8"></label>
+                    </div>
+
+                    <!-- Previous arrow -->
+                    <div id="controls-previous">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                        <label for="slide8"></label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WOOLWORTHS info -->
+            <section class="store-main__info">
+                <div class="store-main__info-content">
+
+                    <!-- WOOLWORTHS logo -->
+                    <div class="store-main__info-logo">
+                        <img src="images/stores/fashion/woolworths/logo.png"
+                            alt="WOOLWORTHS Logo" width="1200" height="630">
+                    </div>
+
+                    <!-- "Shop Now" button -->
+                    <aside class="shop-now">
+                        <a href="https://www.woolworths.co.za/"
+                            target="_blank" rel="noopener noreferrer">
+                            <button type="button">Shop Now <span
+                                    class="shop-rarr">&rarr;</span>
+                            </button>
+                        </a>
+                    </aside>
+
+                    <!-- WOOLWORTHS information -->
+                    <div class="store-main__info-content-info">
+
+                        <!-- WOOLWORTHS introduction -->
+                        <p>"Experience the epitome of style and sophistication at Woolworths, where fashion meets elegance in every aisle. Explore our exclusive collection of chic clothing, accessories, and homeware, curated to inspire your personal style journey. From timeless classics to the latest trends, each item reflects our commitment to quality and craftsmanship. With a reputation for impeccable service and a passion for innovative design, Woolworths invites you to elevate your wardrobe and home decor with confidence and grace. Discover the art of refined living at Woolworths, where every purchase is a testament to your distinctive taste and discerning eye."</p>
+
+                        <!-- WOOLWORTHS story -->
+                        <p>Woolworths, the South African retailer, was founded
+                            in 1931. It started as a single store in Cape Town
+                            and has since grown to become one of the country's
+                            leading retail chains, offering a wide range of
+                            products including food, clothing, and homeware.
+                            Woolworths is known for its commitment to quality,
+                            sustainability, and ethical sourcing practices.</p>
+
+                        <!-- WOOLWORTHS conclusion -->
+                        <p>Woolworths distinguishes itself in the South African
+                            retail landscape with a strong commitment to quality
+                            across its food, clothing, and homeware offerings,
+                            emphasizing ethical sourcing and sustainable
+                            practices. Renowned for its fashionable apparel and
+                            diverse product range, Woolworths blends
+                            international trends with local preferences to cater
+                            to a broad customer base. The brand's dedication to
+                            customer satisfaction is evident in its
+                            well-designed stores, personalized service, and
+                            ongoing innovation. Additionally, Woolworths
+                            prioritizes corporate social responsibility,
+                            supporting community initiatives and environmental
+                            sustainability, further solidifying its reputation
+                            as a leading retailer in South Africa.</p>
+
+                        <!-- Store location -->
+                        <h4>Where will you find us?</h4>
+                        <p>We are located on the <span class="bold">1st Level,
+                                Shop B15a.</span></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Back to top button -->
+        <div class="top">
+            <a class="top-arr" href="woolworths.html"
+                title="Back to top.">&blacktriangle;</a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer__social-media">
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook-icon.png" alt="Facebook"
+                        width="100" height="100" title="Follow us on Facebook">
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram-icon.png" alt="Instagram"
+                        width="100" height="100" title="Follow us on Instagram">
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/tiktok-icon.png" alt="TikTok" width="100"
+                        height="100" title="Follow us on TikTok">
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://x.com/" class="footer-icon" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="images/twitter-icon.png" alt="Twitter" width="100"
+                        height="100" title="Follow us on Twitter">
+                </a>
+            </div>
+        </footer>
+
+    </body>
+</html>

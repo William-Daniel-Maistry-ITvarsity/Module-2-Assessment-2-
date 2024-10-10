@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"><!-- Set character encoding for the document -->
+
+        <!-- Responsive design: adjusts layout for different devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page title displayed in the browser tab -->
+        <title>The Miracle Worker | Pine City Mall</title>
+
+        <!-- Open Graph Meta Tags for social media sharing -->
+        <meta property="og:title" content="The Miracle Worker | Pine City Mall">
+        <meta property="og:type" content="website">
+        <!-- TODO: add actual url -->
+        <meta property="og:url" content="#######">
+        <!-- TODO: replace image with correct github url -->
+        <meta property="og:image"
+            content="images/movies/the-miracle-worker/meta.jpg">
+        <meta property="og:description"
+            content="Experience the inspiring story of Helen Keller and her teacher Anne Sullivan in 'The Miracle Worker'.">
+        <meta property="og:site_name"
+            content="The Miracle Worker | Pine City Mall">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags for Twitter card display -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title"
+            content="The Miracle Worker | Pine City Mall">
+        <meta name="twitter:description"
+            content="Experience the inspiring story of Helen Keller and her teacher Anne Sullivan in 'The Miracle Worker'.">
+        <!-- TODO: replace image with correct github url -->
+        <meta name="twitter:image"
+            content="images/movies/the-miracle-worker/meta.jpg">
+
+        <!-- Standard SEO meta tags -->
+        <meta name="description"
+            content="Discover the powerful narrative of 'The Miracle Worker', showcasing the triumph of determination and education.">
+        <meta name="keywords"
+            content="The Miracle Worker, movie, Pine City Mall, Helen Keller, Anne Sullivan, inspiration, education">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Preconnect to optimize font loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Google Fonts stylesheet -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+            rel="stylesheet">
+
+        <!-- Favicon for the site -->
+        <link rel="icon" href="images/favicon.ico">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- This title is offscreen for visual layout but important for screen readers -->
+        <span
+            class="offscreen">The Miracle Worker</span>
+
+        <!-- Header -->
+        <header class="header">
+
+            <!-- Hamburger menu -->
+            <nav class="header__hamburger-menu">
+                <input type="checkbox" class="toggle-menu" title="Menu">
+                <div class="hamburger" title="Menu"></div>
+                <ul class="header__menu">
+                    <li><a href="stores.html">Stores</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Loader effect -->
+            <div class="loader-container">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Mall logo -->
+            <section class="header__logo">
+                <a href="home.html">
+                    <img title="Home" src="images/mall-logo.png"
+                        alt="Mall Logo"
+                        width="577" height="100">
+                </a>
+            </section>
+
+            <!-- Menubar -->
+            <nav class="header__menubar">
+                <ul class="header__menubar-items">
+                    <li>
+
+                        <!-- Stores -->
+                        <a href="stores.html" title="Click">Stores</a>
+
+                        <!-- Dropdown arrow -->
+                        <div class="stores-dropdown-arrow"
+                            aria-label="Dropdown arrow">&#x25BC</div>
+
+                        <!-- Store categories -->
+                        <ul class="header__store-categories">
+
+                            <!-- Banks -->
+                            <li>
+                                <a href="banks.html" class="banks">
+                                    <h4>Banks</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__banks">
+                                    <li>
+                                        <a href="absa.html">
+                                            <h4>ABSA</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="capitec.html">
+                                            <h4>CAPITEC</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="fnb.html">
+                                            <h4>FNB</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="nedbank.html">
+                                            <h4>NEDBANK</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="standard-bank.html">
+                                            <h4 class="nowrap">Standard
+                                                Bank</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Electronics -->
+                            <li>
+                                <a href="electronics.html"
+                                    class="electronics">
+                                    <h4>Electronics</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__electronics-stores">
+                                    <li>
+                                        <a href="hificorp.html">
+                                            <h4>HiFiCorp</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="incredible-connection.html">
+                                            <h4>Incredible CONNECTION</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="istore.html">
+                                            <h4>iStore</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="sa-cell-world.html">
+                                            <h4><span
+                                                    class="smalltext">SA</span>CellWorld</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="samsung.html">
+                                            <h4>SAMSUNG</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Fashion -->
+                            <li>
+                                <a href="fashion.html" class="fashion">
+                                    <h4>Fashion</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__fashion-stores">
+                                    <li>
+                                        <a href="edgars.html">
+                                            <h4>Edgars</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="kingsmead.html">
+                                            <h4>Kingsmead</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mr-price.html">
+                                            <h4 class="nowrap">Mr Price</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="shoe-city.html">
+                                            <h4>ShoeCity</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="truworths.html">
+                                            <h4>TRUWORTHS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="woolworths.html">
+                                            <h4>WOOLWORTHS</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Furniture -->
+                            <li>
+                                <a href="furniture.html" class="furniture">
+                                    <h4>Furniture</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__furniture-stores">
+                                    <li>
+                                        <a href="bradlows.html">
+                                            <h4>BRADLOWS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="house-&-home.html">
+                                            <h4 class="nowrap">House &
+                                                Home</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="rochester.html">
+                                            <h4>ROCHESTER</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Healthcare -->
+                            <li>
+                                <a href="healthcare.html"
+                                    class="healthcare">
+                                    <h4>Healthcare</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__healthcare-stores">
+                                    <li>
+                                        <a href="clicks.html">
+                                            <h4>CLICKS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="dis-chem.html">
+                                            <h4 class="nowrap">Dis-Chem</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="specsavers.html">
+                                            <h4>specsavers</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Restaurants -->
+                            <li>
+                                <a href="restaurants.html"
+                                    class="restaurants">
+                                    <h4>Restaurants</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__restaurants">
+                                    <li>
+                                        <a href="kfc.html">
+                                            <h4>KFC</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="nando's.html">
+                                            <h4>Nando's</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ocean-basket.html">
+                                            <h4 class="nowrap">Ocean
+                                                Basket</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="panarottis.html">
+                                            <h4>PANAROTTIS</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pizza-hut.html">
+                                            <h4 class="nowrap">Pizza
+                                                Hut</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="raj.html">
+                                            <h4 class="nowrap"><span
+                                                    class="smalltext">THE</span>
+                                                RAJ</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="spur.html">
+                                            <h4>SPUR</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="steers.html">
+                                            <h4>STEERS</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Supermarkets -->
+                            <li>
+                                <a href="supermarkets.html"
+                                    class="supermarkets">
+                                    <h4>Supermarkets</h4>
+                                    <div
+                                        class="header__right-arrow">&#x25BA</div>
+                                </a>
+                                <ul class="header__supermarkets">
+                                    <li>
+                                        <a href="checkers-hyper.html">
+                                            <h4 class="nowrap">Checkers
+                                                Hyper</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pick-n-pay.html">
+                                            <h4 class="nowrap">Pick n
+                                                Pay</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="woolworths-foodmarket.html">
+                                            <h4><strong>WOOLWORTHS</strong>
+                                                FOOD</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Movies -->
+                    <li>
+                        <a href="movies.html" title="Click">Movies</a>
+
+                        <!-- Dropdown arrow -->
+                        <div class="movies-dropdown-arrow"
+                            aria-label="Dropdown arrow">&#x25BC</div>
+                        <ul class="header__movies">
+                            <li>
+                                <a href="a-dog-of-flanders.html">
+                                    <h4 class="nowrap">A DOG of FLANDERS
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="geronimo.html">
+                                    <h4>GERONIMO
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="silas-marner.html">
+                                    <h4 class="nowrap">SiLas MARNER
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="the-miracle-worker.html">
+                                    <h4 class="nowrap">The Miracle Worker
+                                    </h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="treasures-of-the-snow.html">
+                                    <h4 class="nowrap">Treasures of the SNOW
+                                    </h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Map, About and Contact pages -->
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs">
+            <div class="breadcrumbs__items">
+                <a href="home.html">
+                    <img class="home-icon" src="images/home-icon.png"
+                        alt="Home Icon" title="Home" width="100"
+                        height="100">
+                </a>
+                <a href="movies.html">Movies</a>
+                <a href="the-miracle-worker.html">The Miracle Worker</a>
+            </div>
+        </nav>
+
+        <!-- Movie main section -->
+        <main class="movie-main">
+
+            <!-- Movie slider -->
+            <section class="movie-main__slider">
+                <div id="slider">
+
+                    <!-- Hidden radio buttons -->
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
+                    <input type="radio" name="slider" id="slide7">
+                    <input type="radio" name="slider" id="slide8">
+                    <div id="slides">
+
+                        <!-- Slider images -->
+                        <figure class="inner">
+                            <img
+                                src="images/movies/the-miracle-worker/img-1.png"
+                                alt="Image 1" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-2.jpg"
+                                alt="Image 2" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-3.png"
+                                alt="Image 3" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-4.png"
+                                alt="Image 4" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-1.png"
+                                alt="Image 1" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-2.jpg"
+                                alt="Image 2" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-3.png"
+                                alt="Image 3" width="1000" height="600">
+                            <img
+                                src="images/movies/the-miracle-worker/img-4.png"
+                                alt="Image 4" width="1000" height="600">
+                        </figure>
+                    </div>
+
+                    <!-- Next arrow -->
+                    <div id="controls-next">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                        <label for="slide8"></label>
+                    </div>
+
+                    <!-- Pagination indicators -->
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide5"></label>
+                        <label for="slide2"></label>
+                        <label for="slide6"></label>
+                        <label for="slide3"></label>
+                        <label for="slide7"></label>
+                        <label for="slide4"></label>
+                        <label for="slide8"></label>
+                    </div>
+
+                    <!-- Previous arrow -->
+                    <div id="controls-previous">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                        <label for="slide8"></label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Movie info -->
+            <section class="movie-content">
+
+                <!-- Main heading -->
+                <h1 class="center">The Miracle Worker</h1>
+
+                <!-- Movie intro -->
+                <h2
+                    class="movie-content__attention center">“No boundaries can
+                    prevent
+                    one from accomplishing the unthinkable”</h2>
+
+                <!-- Brief movie synopsis -->
+                <p class="movie-content__synopsis">
+                    "The Miracle Worker" vividly brings to life the inspiring
+                    journey of Helen Keller, a woman who overcame deafness and
+                    blindness to become a beacon of hope. This 1954 film
+                    captures Keller's transformative relationship with her
+                    dedicated teacher, Anne Sullivan, and her remarkable
+                    triumphs against overwhelming odds. Experience the profound
+                    story of resilience and the power of the human spirit in a
+                    film that celebrates how Keller's inner voice ultimately
+                    illuminated the world. The 1954 film "The Miracle Worker" is
+                    a biographical drama about Helen Keller, focusing on her
+                    early years and her struggle
+                    to overcome the challenges of being both deaf and blind. The
+                    movie portrays Keller's life from her childhood through her
+                    transformative relationship with her teacher, Anne Sullivan.
+                    Through Sullivan's innovative methods, Keller begins to
+                    connect with the world around her, leading to significant
+                    personal growth and achievement. The film highlights
+                    Keller's determination, her journey towards communication,
+                    and the profound impact of her education on her life.
+                </p>
+
+                <!-- Movie information -->
+                <div class="movie-content__info">
+
+                    <!-- Actors -->
+                    <p class="movie-content__actors"><span
+                            class="bold">Cast:
+                        </span>Patty Duke, Anne Bancroft,
+                        Victor Jory, Inga Swenson, Kathleen Comegys, Andrew
+                        Prine</p>
+
+                    <!-- Age restriction -->
+                    <p class="movie-content__age-restriction"><span
+                            class="bold">Age Restriction: </span>G</p>
+
+                    <!-- Movie duration -->
+                    <p class="movie-content__duration"><span
+                            class="bold">Duration: </span>1hr 30min</p>
+
+                    <!-- Showing times -->
+                    <p class="movie-content__showing-times"><span
+                            class="bold">Showing Times: </span><span
+                            class="movie-content__showing-times-days">Mon-Thurs:
+                        </span>19:00 | <span
+                            class="movie-content__showing-times-days">Fri &
+                            Sat:
+                        </span>15:00, 20:30 </p>
+
+                    <!-- Price -->
+                    <p><span class="bold">Price: </span>R130</p>
+                </div>
+
+                <!-- Trailer -->
+                <h3 class="movie-content__watch">WATCH TRAILER:</h3>
+                <div class="movie-content__watch-darr">&darr;</div>
+                <a class="movie-content__trailer"
+                    href="https://youtu.be/FLQAgjfEadM?si=xtIfHOC6B4I4nIUj"
+                    title="Watch Trailer" target="_blank"
+                    rel="noopener noreferrer">
+                    <img class="movie-content__trailer-img"
+                        src="images/movies/the-miracle-worker/trailer.jpg"
+                        alt="Trailer Image" width="400" height="200">
+                    <img class="movie-content__trailer-play-button"
+                        src="images/play.png" alt="Play Button"
+                        width="200" height="135">
+                </a>
+            </section>
+        </main>
+
+        <!-- Back to top button -->
+        <div class="top">
+            <a class="top-arr" href="the-miracle-worker.html"
+                title="Back to top.">&blacktriangle;</a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer__social-media">
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook-icon.png" alt="Facebook"
+                        width="100" height="100"
+                        title="Follow us on Facebook">
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram-icon.png" alt="Instagram"
+                        width="100" height="100"
+                        title="Follow us on Instagram">
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/" class="footer-icon"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/tiktok-icon.png" alt="TikTok"
+                        width="100"
+                        height="100" title="Follow us on TikTok">
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://x.com/" class="footer-icon" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="images/twitter-icon.png" alt="Twitter"
+                        width="100"
+                        height="100" title="Follow us on Twitter">
+                </a>
+            </div>
+        </footer>
+
+    </body>
+</html>
